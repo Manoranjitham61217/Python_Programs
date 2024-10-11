@@ -1,0 +1,12 @@
+def prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+x=int(input())
+if prime(x):
+        print("prime")
+else:
+        print("not prime")
+        
+        
